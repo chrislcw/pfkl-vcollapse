@@ -1,26 +1,26 @@
 {
-  "name": "pfkl-vtabs",
-  "version": "1.0.5",
-  "description": "Simple tabs plugin for jQuery",
+  "name": "pfkl-vcollapse",
+  "version": "1.0.1",
+  "description": "Simple collapse plugin for jQuery",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chrislcw/pfkl-vtabs.git"
+    "url": "git+https://github.com/chrislcw/pfkl-vcollapse.git"
   },
   "keywords": [
     "jquery",
-    "tab",
+    "collapse",
     "plugin"
   ],
   "author": "Chris",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chrislcw/pfkl-vtabs/issues"
+    "url": "https://github.com/chrislcw/pfkl-vcollapse/issues"
   },
-  "homepage": "https://github.com/chrislcw/pfkl-vtabs#readme",
+  "homepage": "https://github.com/chrislcw/pfkl-vcollapse#readme",
   "peerDependencies": {
     "jquery": ">=3.6.0"
   }
