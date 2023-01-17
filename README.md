@@ -18,7 +18,7 @@ $('your-element').vCollapse({
 ### HTML codes
 
 ```
-<div class="my-vcollapse">
+<div class="your-element">
     <div class="vcollapse-toggle" data-target="#cc1">Collapse 1</div>
     <div class="vcollapse-content" id="cc1">
       <div class="bg-red-100">

@@ -1,6 +1,6 @@
 {
   "name": "pfkl-vcollapse",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Simple collapse plugin for jQuery",
   "main": "index.js",
   "scripts": {
