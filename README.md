@@ -46,7 +46,7 @@ Allowed only one/any content to expand/collapse
 ```
 'any': true|false
 ```
-Default is **true**
+Default is **false**
 #### onLoad
 Content to expand on load
 ```
