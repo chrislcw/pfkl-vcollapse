@@ -41,7 +41,7 @@ $('your-element').vCollapse({
 ```
 
 ### Settings
-####any
+#### any
 Allowed only one/any content to expand/collapse
 ```
 'any': true|false
