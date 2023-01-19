@@ -7,7 +7,7 @@
 ```
 import "pfkl-vcollapse/vcollapse/vcollapse.min.js";
 
-$('your-element').vCollapse({
+$('.your-element').vCollapse({
   'any': false,
   'onLoad': 0,
   'speed': 300,
