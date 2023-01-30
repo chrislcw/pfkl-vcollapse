@@ -12,6 +12,7 @@ $('.your-element').vCollapse({
   'onLoad': 0,
   'speed': 300,
   'easing': 'ease-in-out',
+  'autoScroll': true,
 })
 ```
 
@@ -66,6 +67,12 @@ Collapse/expand transition speed
 'easing': string
 ```
 Default is **ease-in-out**
+#### autoScroll
+Auto scroll to target content on click
+```
+'autoScroll': true|false
+```
+Default is **false**
 
 ### Important
 Do not apply any padding/margin to `.vcollapse-content` element.
