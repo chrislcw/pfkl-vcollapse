@@ -96,6 +96,15 @@ $.fn.vCollapse = function(s = null) {
             $(this).addClass('active');
             target[0].style.height = target[0].scrollHeight + 'px';
             target.addClass('active');
+
+            if (settings.autoScroll === true) {
+              $("html,body").animate(
+                {
+                  scrollTop: e.offset().top,
+                },
+                1000
+              );
+            }
           }
         } else { // Allowed only one content to collapse/expand
           cT.removeClass('active');
@@ -108,14 +117,23 @@ $.fn.vCollapse = function(s = null) {
 
           target[0].style.height = target[0].scrollHeight + 'px';
           target.addClass('active');
+
+          if (settings.autoScroll === true) {
+            $("html,body").animate(
+              {
+                scrollTop: e.offset().top,
+              },
+              1000
+            );
+          }
         }
-        
+
       });
     });
   }
 
   let vCollapseTimeout;
-  
+
   $(window).on('resize', function() {
     clearTimeout(vCollapseTimeout);
 
